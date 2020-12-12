@@ -1,0 +1,48 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+*{
+    padding: 0;
+}
+.one{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+.two{
+    display:flex;
+    justify-content:space-between;
+}
+
+.three {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.three li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 0 10px;
+}
+
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.border-form{
+    display:flex;
+    justify-content: center;
+}
+
+.five{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
